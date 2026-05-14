@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0d0d0d;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ================= HEADER ================= */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px 50px;
+
+    background-color: #111111;
+}
+
+.logo img {
+    width: 120px;
+}
+
+.navegador {
+    display: flex;
+    gap: 30px;
+}
+
+.navegador a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.navegador a:hover {
+    color: #9147ff;
+}
+
+.button-twitch {
+    background-color: #9147ff;
+    color: white;
+
+    padding: 12px 20px;
+
+    border-radius: 8px;
+
+    text-decoration: none;
+
+    transition: 0.3s;
+}
+
+.button-twitch:hover {
+    background-color: #772ce8;
+}
+
+/* ================= BANNER ================= */
+
+.banner-canal {
+    padding: 60px;
+}
+
+.banner-canal table {
+    width: 100%;
+}
+
+.banner-canal img {
+    width: 500px;
+}
+
+.banner-canal h1 {
+    font-size: 70px;
+    color: #9147ff;
+
+    margin: 15px 0;
+}
+
+.banner-canal h3 {
+    margin-bottom: 20px;
+}
+
+.banner-canal p {
+    max-width: 400px;
+
+    line-height: 25px;
+
+    margin-bottom: 30px;
+}
+
+.banner-canal nav {
+    display: flex;
+    gap: 20px;
+}
+
+/* ================= SOBRE ================= */
+
+.quem-sou-eu {
+    text-align: center;
+
+    padding: 80px 20px;
+}
+
+.quem-sou-eu h4 {
+    color: #9147ff;
+
+    margin-bottom: 10px;
+}
+
+.quem-sou-eu h3 {
+    font-size: 40px;
+
+    margin-bottom: 30px;
+}
+
+.quem-sou-eu p {
+    margin: 10px 0;
+}
+
+.quem-sou-eu a {
+    display: inline-block;
+
+    margin-top: 30px;
+
+    background-color: #9147ff;
+
+    color: white;
+
+    text-decoration: none;
+
+    padding: 12px 20px;
+
+    border-radius: 8px;
+}
+
+/* ================= ENCONTRA AQUI ================= */
+
+.encontra-aqui {
+    padding: 80px 20px;
+
+    text-align: center;
+}
+
+fieldset {
+    border: 2px solid #9147ff;
+
+    padding: 40px;
+}
+
+.legenda {
+    color: #9147ff;
+
+    padding: 0 10px;
+}
+
+.encontra-aqui table {
+    width: 100%;
+}
+
+.encontra-aqui img {
+    width: 100px;
+}
+
+.encontra-aqui th {
+    padding: 20px;
+
+    color: #9147ff;
+}
+
+.encontra-aqui p {
+    padding: 10px;
+}
+
+/* ================= FOOTER ================= */
+
+footer {
+    background-color: #111111;
+
+    padding: 40px;
+}
+
+footer table {
+    width: 100%;
+}
+
+footer img {
+    width: 120px;
+}
+
+footer nav {
+    display: flex;
+    gap: 20px;
+}
+
+footer p {
+    text-align: center;
+}
+
+/* ================= HR ================= */
+
+hr {
+    border: 1px solid #222222;
+}
